@@ -1,0 +1,27 @@
+.form-template {
+    display: flex;
+    padding: 1rem;
+    border-bottom: 1px solid #22b8cf;
+}
+
+.form-template input {
+    flex: 1;
+    font-size: 1.25rem;
+    outline:none;
+    border:none;
+    border-bottom:1px solid #99e9f2;
+}
+
+.create-button {
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    background-color: #22b8cf;
+    border-radius: 3px;
+    color:white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.create-button:hover {
+    background-color: #3bc9db;
+}
